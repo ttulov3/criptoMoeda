@@ -30,7 +30,7 @@ export function Detail (){
 
     useEffect(() =>{
         function getData(){
-            fetch(` https://sujeitoprogramador.com/api-cripto/coin/?key=cc333fdc79bbecb8&symbol=${cripto}`)
+            fetch(` https://sujeitoprogramador.com/api-cripto/coin/?key=4698d3515aa887fe&symbol=${cripto}`)
             .then(response => response.json())
             .then((data: CoinProps) => {
 
